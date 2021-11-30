@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
 
+h1 {
+    color: grey;
+    font-family: verdana;
+}
 
+label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+mark {
+    background-color: yellow;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 25px;
+    /* width: 300px; Now, width adjusts to content:*/
+    max-width: fit-content;
+    /*Align the div to the center of the page:*/
+    margin: auto;
+}
+
+.content {
+    /*Creates a centered block with the content within the .maindiv*/
+    max-width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
