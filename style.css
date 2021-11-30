@@ -10,12 +10,14 @@ h1 {
 }
 
 label {
+    /*Formats input labels*/
     display: inline-block;
     width: 120px;
     margin-bottom: 10px;
 }
 
 mark {
+    /*Yellow highlights*/
     background-color: yellow;
 }
 
