@@ -1,6 +1,5 @@
 addEventListener('load', (ev) => {
-    //resets rate to its original value on each load
-    // document.getElementById("rate").value = 10.25;
+    //Ensures that the span "rate_val" has exactly the value of the input range "rate" on each reload.
     updateRate()
 })
 
